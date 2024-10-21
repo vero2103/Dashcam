@@ -14,7 +14,7 @@ line_colors = {}
 def handle_entry():
     line_id = entry_id.get()
     if line_id.isdigit() and int(line_id) in line_ids:
-        line_colors[int(line_id)] = (0, 255, 0)  # Verde para entrada
+        line_colors[int(line_id)] = (0, 0, 0)  # Verde para entrada
         print("Entrada registrada para línea ID:", line_id)
     else:
         print("ID de línea no válido")
